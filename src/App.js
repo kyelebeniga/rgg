@@ -12,16 +12,16 @@ import Sidebar from './Components/Sidebar';
 function App() {
   let component 
   switch (window.location.pathname){
-    case "/":
+    case "/rgg/":
       component = <Home />
       break
-    case "/home":
+    case "/rgg/home":
       component = <Home />
       break
-    case "/notifications":
+    case "/rgg/notifications":
       component = <Notifications />
       break
-    case "/contacts":
+    case "/rgg/contacts":
       component = <Contacts />
       break
   }
