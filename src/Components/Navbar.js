@@ -6,7 +6,7 @@ export default function Navbar() {
                 <li><a href='/rgg/settings'>Settings</a></li>
                 <li><a href='/rgg/contacts'>Contact Us</a></li>
                 <li><a href='/rgg/notifications'>Notifications</a></li>
-                <li id="login" onclick="location.href='#'">Log in</li>
+                <li id="login">Log in</li>
             </ul>
         </nav>
     )
